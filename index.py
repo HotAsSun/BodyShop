@@ -262,7 +262,9 @@ def list_all_products():
     print("Listing all available products:")
     for product_id, product in product_catalog.items():
         print(f"ID: {product_id}, Name: {product['name']}, Price: ${product['price']}, Available: {'Yes' if product['availability'] else 'No'}")
-    
+ #not complete 
+ #    
 if __name__ == "__main__":
+    print("project : run")
     entrence()
     print(userData)
